@@ -1,0 +1,130 @@
+@media only screen and (max-width: 425px) {
+    body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+    body {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: fit-content;
+      position: absolute;
+      background-image: url(./images/pattern-background-desktop.svg);
+      background-repeat: repeat-x;
+      background-color: #DFE8FF;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      overflow: hidden;
+    }
+
+    .card {
+      display: flex;
+      flex-wrap: wrap;
+      width: 400px;
+      height: 550px;
+      bottom: auto;
+      left: 450px;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      top: 170px;
+      bottom: 5px;
+      background-color: white;  
+      border-radius: 5%;
+
+    }
+
+    .card-top img {
+      width: 400px;
+      height: auto;
+      border-top-left-radius: 5%;
+      border-top-right-radius: 5%;
+    }
+
+    .card-body h2 {
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .card-body p {
+      text-align: center;
+      font-size: medium;
+      font-family: 'Poppins', sans-serif;
+      font-weight: normal;
+      color: #7D849A;
+    }
+
+    .pricing {
+      background-color: #F7F9FE;
+      position: relative;
+      bottom: 50px;
+      width: 300px;
+      border-radius: 10%;
+      height: 80px;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    #music {
+      position: relative;
+      top: 15px;
+      left: 20px;
+    }
+
+    #price-h4 {
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      font-size: medium;
+      bottom: 30px;
+      left: 80px;
+    }
+
+    #price-p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: medium;
+      color: #7D849A;
+      position: relative;
+      bottom: 40px;
+      left: 80px;
+    }
+
+    #purchase {
+      font-family: 'Montserrat', sans-serif;
+      font-size: small;
+      font-weight: bold;
+      position: relative;
+      float: right;
+      bottom: 90px;
+      right: 20px;
+    }
+
+    #c-purchase {
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      bottom: 35px;
+      align-items: center;
+      left: 50px;
+      width: 300px;
+      border-radius: 10px;
+      background-color: #382AE1;
+    }
+
+    #can-purchase {
+      font-family: 'Montserrat', sans-serif;
+      position: relative;
+      width: 300px;
+      align-items: center;
+      justify-content: center;
+      left: 50px;
+      bottom: 25px;
+      border-radius: 10px;
+     
+    }
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
